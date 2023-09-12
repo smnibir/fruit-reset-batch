@@ -1,3 +1,22 @@
 body{
     font-family: 'Lato', sans-serif;
 }
+svg:hover{
+    cursor: pointer;
+}
+.before-footer svg{
+background-color: #f5f5f5;
+border-radius: 100%;
+}
+.before-footer h3:after{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100px;
+    height: 1px;
+    border-bottom: 3px solid #f5f5f5;
+    content: "";
+}
+.fill-current{
+    fill: white;
+}
